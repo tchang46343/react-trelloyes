@@ -11,5 +11,6 @@ export default function Card(props) {
   );
 }
 Card.propTypes = {
-  onClickDelete: () => {}
+  onClickDelete: () => {},
+  Card: []
 };

@@ -30,6 +30,7 @@ export default function List(props) {
   );
 }
 
-List.defualtProps = {
-  onClickAdd: () => {}
+List.defaultProps = {
+  onClickAdd: () => {},
+  cards: []
 };
